@@ -19,25 +19,25 @@ function playSound(soundUrl) {
   
     switch(key) {
       case "q":
-        soundUrl = "/sounds/sound1.mp3";
+        soundUrl = "/sound1.mp3";
         break;
       case 'w':
-        soundUrl = "/sounds/sound2.mp3";
+        soundUrl = "/sound2.mp3";
         break;
       case 'e':
-        soundUrl = "/sounds/sound3.mp3";
+        soundUrl = "/sound3.mp3";
         break;
       case 'r':
-        soundUrl = "/sounds/sound4.mp3";
+        soundUrl = "/sound4.mp3";
         break;
       case 't':
-        soundUrl = "/sounds/snare.mp3";
+        soundUrl = "/snare.mp3";
         break;
       case 'y':
-        soundUrl = "/sounds/crash.mp3";
+        soundUrl = "/crash.mp3";
         break;
       case 'u':
-        soundUrl = "/sounds/kick.mp3";
+        soundUrl = "/kick.mp3";
         break;
       default:
         return; // Exit function if no matching key
